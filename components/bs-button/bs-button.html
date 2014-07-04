@@ -1,0 +1,50 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Element providing solution to no problem in particular.
+
+##### Example
+
+    <bs-button></bs-button>
+
+@element bs-button
+@blurb Element providing solution to no problem in particular.
+@status alpha
+@homepage http://arvindr21.github.io/bs-button
+-->
+<polymer-element name="bs-button" attributes="type,text">
+
+  <template>
+
+    <link rel="stylesheet" href="bs-button.css" />
+    <button type="button" class="btn btn-{{type}}">{{text}}</button>
+    <content></content>
+
+  </template>
+
+  <script>
+
+    Polymer('bs-button', {
+      /**
+       * The `type` attribute specifies the button you want.
+       *
+       * @attribute type
+       * @type string
+       */
+      type: 'default',
+      /**
+       * The `text` attribute specifies the text on the button.
+       *
+       * @attribute text
+       * @type string
+       */
+      text: '',
+
+      ready: function() {
+      },
+
+    });
+
+  </script>
+
+</polymer-element>

@@ -1,0 +1,19 @@
+{
+  "name": "bs-button",
+  "keywords": "bootstrap, input, bs-button, polymer, web-components",
+  "main": "bs-input.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.1"
+  },
+  "homepage": "https://github.com/arvindr21/bs-button",
+  "_release": "e9a8bd703b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e9a8bd703b633970dbcfffb454cba59d4cfb117d"
+  },
+  "_source": "git://github.com/arvindr21/bs-button.git",
+  "_target": "master",
+  "_originalSource": "arvindr21/bs-button",
+  "_direct": true
+}

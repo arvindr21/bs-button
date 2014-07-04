@@ -1,0 +1,7 @@
+{
+  "name": "bs-button#gh-pages",
+  "private": true,
+  "dependencies": {
+    "bs-button": "arvindr21/bs-button#master"
+  }
+}
